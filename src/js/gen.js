@@ -51,3 +51,7 @@ class Team {
   }
   
 
+const team = new Team([char,char1,char2,char3]);
+for (let item of team){
+  console.log(item)
+}
